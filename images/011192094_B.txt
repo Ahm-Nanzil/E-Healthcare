@@ -1,0 +1,18 @@
+1.SELECT * FROM `customers` WHERE state='CA'
+
+2.SELECT productCode,productName,textDescription
+FROM products INNER JOIN productlines ON products.productLine=productlines.productLine.
+
+3.SELECT COUNT(orderNumber) 
+FROM orders
+GROUP BY status 
+DESC
+
+4.SELECT 
+    customerNumber, 
+    checkNumber, 
+    amount
+FROM
+    payments
+WHERE
+    amount = (SELECT MAX(amount) FROM payments);

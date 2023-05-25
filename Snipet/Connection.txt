@@ -1,0 +1,28 @@
+<?php
+
+
+{
+    include 'C:\xampp\htdocs\Health Care\Config\Config.php';
+    $conn = new mysqli($servername, $username, $password,$dbname); 
+    $dbSuccess=FALSE;
+    if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+    }
+    else $dbSuccess=TRUE;
+
+    }
+
+if($dbSuccess){
+
+    
+
+
+ }
+ 
+
+
+
+//close database connection
+ $conn->close();
+
+?>

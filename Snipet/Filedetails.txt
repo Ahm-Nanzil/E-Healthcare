@@ -1,0 +1,12 @@
+/*
+
+*	File:			companyCreate.php
+*	By:			TMIT
+*	Date:		2010-06-01
+*
+*	This script defines an HTML form using php 
+*	for user to enter company details - POST to companySave.php
+*
+*
+*=====================================
+*/

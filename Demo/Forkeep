@@ -1,0 +1,37 @@
+//insert student
+
+{  //   SQL:     $tCompany_SQLinsert
+		
+		
+
+		
+		$tCompany_SQLinsert = "UPDATE Student SET  WHERE ID = '".$userID_value."' (";			
+		$tCompany_SQLinsert .=  "SurName, ";
+		$tCompany_SQLinsert .=  "Name, ";
+		$tCompany_SQLinsert .=  "RegType, ";
+		$tCompany_SQLinsert .=  "Age, ";
+		$tCompany_SQLinsert .=  "Blood, ";
+		$tCompany_SQLinsert .=  "Contact, ";
+		$tCompany_SQLinsert .=  "Address, ";
+		$tCompany_SQLinsert .=  "Town, ";
+		$tCompany_SQLinsert .=  "Postcode, ";	
+		$tCompany_SQLinsert .=  "COUNTRY, ";
+		$tCompany_SQLinsert .=  "Health_Condition, ";
+		$tCompany_SQLinsert .=  "accessLevel";
+		$tCompany_SQLinsert .=  ") ";
+		
+		$tCompany_SQLinsert .=  "VALUES (";
+		$tCompany_SQLinsert .=  "'".$SurName."', ";
+		$tCompany_SQLinsert .=  "'".$Name."', ";
+		$tCompany_SQLinsert .=  "'', ";
+		$tCompany_SQLinsert .=  "'".$Age."', ";
+		$tCompany_SQLinsert .=  "'".$Blood."', ";
+		$tCompany_SQLinsert .=  "'".$Contact."', ";
+		$tCompany_SQLinsert .=  "'".$Address."', ";
+		$tCompany_SQLinsert .=  "'".$Town."', ";
+		$tCompany_SQLinsert .=  "'".$Postcode."', ";		
+		$tCompany_SQLinsert .=  "'".$Country."', ";
+		$tCompany_SQLinsert .=  "'', ";
+		$tCompany_SQLinsert .=  "'' ";
+		$tCompany_SQLinsert .=  ") ";
+	}
