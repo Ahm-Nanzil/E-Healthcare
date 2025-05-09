@@ -2,6 +2,7 @@
 //FOR IGNORE NOTICE ERROR
 error_reporting (E_ALL ^ E_NOTICE);
 
+
 ?>
 <?php
 //ob_start();
